@@ -8,8 +8,13 @@ interface  BaseLogic {
     A: number;
     B: number;
     Out: number;
-    Size: {
-
-    }
 }
 
+const AND: BaseLogic = {
+    A: 1,
+    B: 0,
+    Out: 0,
+
+
+}
+print(AND.A)

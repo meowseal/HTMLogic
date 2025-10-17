@@ -5,9 +5,13 @@ function print(input:any) {
 
 // Object Shapes
 interface  BaseLogic {
-    A: number;
-    B: number;
-    Out: number;
+    A: number,
+    B: number,
+    Out: number,
+    Size?: {
+        X: number,
+        Y: number,
+            },
 }
 
 const AND: BaseLogic = {
@@ -18,3 +22,4 @@ const AND: BaseLogic = {
 
 }
 print(AND.A)
+print(AND.Size)
